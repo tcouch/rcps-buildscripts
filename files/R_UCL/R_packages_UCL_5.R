@@ -158,6 +158,11 @@ install.packages ("png", lib=mainLib, repos=repros);
 # For Laura Zieger (l.zieger@ucl.ac.uk) Dec 2018
 install.packages ("TAM", lib=mainLib, repos=repros);
 
+# For Tom O'Grady (t.o'grady@ucl.ac.uk) January 2019
+install.packages ("mfx", lib=mainLib, repos=repros);
+install.packages ("pROC", lib=mainLib, repos=repros);
+install.packages ("quanteda", lib=mainLib, repos=repros);
+
 # For Tom O'Grady (t.o'grady@ucl.ac.uk) April 2019
 install.packages ("devtools", lib=mainLib, repos=repros);
 devtools::install_github("jamesdunham/dgo");
